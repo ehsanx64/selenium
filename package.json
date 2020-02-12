@@ -1,0 +1,23 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "Selenium related stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsanx64/selenium.git"
+  },
+  "keywords": [
+    "selenium",
+    "functional-test"
+  ],
+  "author": "Ehsan Mohammadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehsanx64/selenium/issues"
+  },
+  "homepage": "https://github.com/ehsanx64/selenium#readme"
+}
