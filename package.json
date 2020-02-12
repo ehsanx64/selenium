@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ehsanx64/selenium/issues"
   },
-  "homepage": "https://github.com/ehsanx64/selenium#readme"
+  "homepage": "https://github.com/ehsanx64/selenium#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
 }
