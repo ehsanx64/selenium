@@ -4,7 +4,7 @@ const chrome = require('selenium-webdriver/chrome');
 module.exports.codes = function () {
     (async function myFunction() {
         let driver = await new Builder().forBrowser('chrome').build();
-        let searchTerm = 'Lisp';
+        let searchTerm = 'Lisp (Programming Language)';
 
         // Open the Wikipedia
         await driver.get('https://wikipedia.org');
