@@ -1,4 +1,4 @@
-const {Builder, By} = require('selenium-webdriver');
+const {Builder, By, until} = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 
 module.exports.codes = function () {
@@ -25,5 +25,7 @@ module.exports.codes = function () {
         let searchButton = driver.findElement(By.css('#simpleSearch > input[name=go]'));
         await searchButton.click();
 
+        await driver.wait(until.elementLocated(By.id('firstHeading')), 30000);
+        const searchResultHeader = driver.findElement(By.css('#firstHeading'));
     })();
 }
